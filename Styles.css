@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.username {
+    font-size: 28px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.bio {
+    font-size: 16px;
+    color: #666;
+}
+
+.follow-button {
+    background-color: #3897f0;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px -5px;
+}
+
+.post {
+    margin: 5px;
+}
+
+.post img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
